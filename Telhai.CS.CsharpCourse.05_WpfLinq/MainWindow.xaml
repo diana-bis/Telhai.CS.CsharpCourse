@@ -1,0 +1,65 @@
+﻿<Window x:Class="Telhai.CS.CsharpCourse._05_WpfLinq.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Telhai.CS.CsharpCourse._05_WpfLinq"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="28*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200px"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Name="lbl"  Content="Songs" Grid.ColumnSpan="2" FontSize="20px" HorizontalAlignment="Stretch" VerticalAlignment="Center" Background="AliceBlue"/>
+
+        <StackPanel Background="AliceBlue" Grid.Row="1" Grid.Column="0">
+            <Button Name="btn1" Margin="5,5,5,5" Content="Button" Click="btn1_Click"/>
+            <Button Name="btn2" Margin="5" Content="Button" Click="btn2_Click"/>
+            <Button Name="btn3" Margin="5" Content="Button" Click="btn3_Click"/>
+            <Button Name="btnLoadSongs" Margin="5" Content="Load 50 Songs" Click="btnLoadSongs_Click"/>
+            <Button Name="btnDeleteSong" Margin="5" Content="Delete Selected Song" Click="btnDeleteSong_Click"/>
+            <Button Name="btnSortByDuration" Margin="5" Content="Sort by Duration" Click="btnSortByDuration_Click"/>
+            <Button Name="btnSortByTitle" Margin="5" Content="Sort by Title" Click="btnSortByTitle_Click"/>
+            <Separator Margin="5"/>
+            <TextBox Name="txtSearch" Width="180" Margin="5" />
+            <Button Name="btnSearch" Content="Search" Margin="5" Click="btnSearch_Click" Width="90"/>
+            <Separator Margin="5"/>
+            <Button Name="btnShortHits" Margin="5" Content="Short Hits" Click="btnShortHits_Click" />
+            <Separator Margin="5"/>
+            <Button Name="btnArtistsCount" Margin="5" Content="Songs per Artist" Click="btnArtistsCount_Click" />
+
+        </StackPanel>
+
+        <Grid Grid.Row="1" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <ListBox Name="songsListBox" Grid.Row="0" Background="WhiteSmoke" Margin="5" />
+
+            <!-- textboxes and add button -->
+            <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left" Margin="5">
+                <TextBox Name="txtArtist" Width="120" Margin="5"/>
+                <TextBox Name="txtTitle" Width="120" Margin="5"/>
+                <TextBox Name="txtDuration" Width="100" Margin="5"/>
+                <Button Name="btnAddSong" Content="+" Width="33" Click="btnAddSong_Click" Height="25"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="2" Orientation="Vertical" Margin="10">
+                <TextBlock Name="lblTotalDuration" FontWeight="Bold" />
+                <TextBlock Name="lblAverageLength" FontWeight="Bold" />
+                <TextBlock Name="lblLongestSong" FontWeight="Bold" />
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</Window>
