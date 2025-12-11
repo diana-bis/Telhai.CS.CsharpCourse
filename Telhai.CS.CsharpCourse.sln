@@ -21,21 +21,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telhai.CS.CsharpCourse.05_W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telhai.CS.CsharpCourse.DesignPatterns", "Telhai.CS.CsharpCourse.DesignPatterns\Telhai.CS.CsharpCourse.DesignPatterns.csproj", "{959C1152-6FB5-4EE2-9786-48C0543A7FB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telhai.CS.CsharpCourse.DesignPatterns", "Telhai.CS.CsharpCourse.DesignPatterns\Telhai.CS.CsharpCourse.DesignPatterns.csproj", "{959C1152-6FB5-4EE2-9786-48C0543A7FB4}"
-EndProject
->>>>>>>>> Temporary merge branch 2
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telhai.CS.CsharpCourse.DesignPatterns", "Telhai.CS.CsharpCourse.DesignPatterns\Telhai.CS.CsharpCourse.DesignPatterns.csproj", "{959C1152-6FB5-4EE2-9786-48C0543A7FB4}"
-EndProject
->>>>>>>>> Temporary merge branch 2
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telhai.CS.CsharpCourse.DesignPatterns", "Telhai.CS.CsharpCourse.DesignPatterns\Telhai.CS.CsharpCourse.DesignPatterns.csproj", "{959C1152-6FB5-4EE2-9786-48C0543A7FB4}"
-EndProject
->>>>>>>>> Temporary merge branch 2
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telhai.CS.CsharpCourse.DesignPatterns", "Telhai.CS.CsharpCourse.DesignPatterns\Telhai.CS.CsharpCourse.DesignPatterns.csproj", "{959C1152-6FB5-4EE2-9786-48C0543A7FB4}"
-EndProject
->>>>>>>>> Temporary merge branch 2
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telhai.CS.CsharpCourse.DesignPatterns", "Telhai.CS.CsharpCourse.DesignPatterns\Telhai.CS.CsharpCourse.DesignPatterns.csproj", "{959C1152-6FB5-4EE2-9786-48C0543A7FB4}"
-EndProject
->>>>>>>>> Temporary merge branch 2
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,10 +44,12 @@ Global
 		{495C5BFC-C9A2-472D-8EC8-116CCE259C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{495C5BFC-C9A2-472D-8EC8-116CCE259C50}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8F52815C-3E9D-4080-809D-B31E7643E05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{959C1152-6FB5-4EE2-9786-48C0543A7FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{959C1152-6FB5-4EE2-9786-48C0543A7FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{959C1152-6FB5-4EE2-9786-48C0543A7FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{959C1152-6FB5-4EE2-9786-48C0543A7FB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F52815C-3E9D-4080-809D-B31E7643E05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F52815C-3E9D-4080-809D-B31E7643E05B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEBFF67A-AF8E-4406-A076-4A50353682FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEBFF67A-AF8E-4406-A076-4A50353682FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEBFF67A-AF8E-4406-A076-4A50353682FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEBFF67A-AF8E-4406-A076-4A50353682FA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FC86B9DF-3C40-4949-828B-394798227BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FC86B9DF-3C40-4949-828B-394798227BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC86B9DF-3C40-4949-828B-394798227BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -71,13 +58,10 @@ Global
 		{E897A360-37BD-450F-BA60-672C30B48C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E897A360-37BD-450F-BA60-672C30B48C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E897A360-37BD-450F-BA60-672C30B48C00}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<<<< Temporary merge branch 1
-=========
 		{959C1152-6FB5-4EE2-9786-48C0543A7FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{959C1152-6FB5-4EE2-9786-48C0543A7FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{959C1152-6FB5-4EE2-9786-48C0543A7FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{959C1152-6FB5-4EE2-9786-48C0543A7FB4}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>>>> Temporary merge branch 2
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
